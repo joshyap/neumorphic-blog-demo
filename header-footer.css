@@ -11,8 +11,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5vh;
-    padding-bottom: 2vh;
+    padding: 5vh 0 5vh 0;
 }
 
 .footer-link {
@@ -35,9 +34,12 @@ i {
 header {
     align-items: center;
     justify-content: space-between;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 3vh;
+    padding: 3vh 2vw 5vh 2vw;
+}
+
+header a {
+    padding-left: .5vw;
+    padding-right: .5vw;
 }
 
 .navlinks {
