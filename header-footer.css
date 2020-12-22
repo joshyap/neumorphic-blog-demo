@@ -34,7 +34,7 @@ i {
 header {
     align-items: center;
     justify-content: space-between;
-    padding: 3vh 2vw 5vh 2vw;
+    padding: 1vh 2vw 5vh 2vw;
 }
 
 header a {
@@ -42,10 +42,34 @@ header a {
     padding-right: .5vw;
 }
 
-.navlinks {
-
-}
 
 .navhome {
+    color: black;
+}
 
+.fire-color {
+    color: red;
+}
+
+.navcard {    
+    margin: .5vh .5vw .5vh .5vw;
+    flex-direction: column;
+    padding: .5vh .5vw .5vh .5vw;
+    width: 500px;
+    box-shadow: 
+    10px 10px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+}
+
+.navcard:hover {
+    box-shadow: 
+    2px 2px 5px rgba(0, 0, 0, 0.25),
+    -2px -2px 5px rgba(255, 255, 255, 0.3);
+}
+
+.navcard:active {
+    box-shadow: 
+    inset 8px 8px 6px 0 rgba(0, 0, 0, 0.25),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.3);
 }
